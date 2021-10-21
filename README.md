@@ -118,10 +118,6 @@ All steps are already included if you want to run tests on iOS simulator.
 2. Find `appium-webdriveragent` folder, open terminal inside and execute next commands:
    ```
    mkdir -p Resources/WebDriverAgent.bundle
-   ```  
-   then
-   ```
-   ./Scripts/bootstrap.sh -d
    ```
 3. Open file `WebDriverAgent.xcodeproj` via Xcode.  
    If there are some alerts with `File is locked…` click `Don’t Unlock` each time.
